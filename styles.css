@@ -1,0 +1,74 @@
+      body, .section
+      {
+          margin: 0;
+          padding: 0;
+      }
+
+      /*** ui-controls ***/
+      .ui-accordian, #Blog1
+      {
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+      }
+
+      .ui-accordian-title
+      {
+          cursor: pointer;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 60px
+      }
+
+      .ui-accordian-title i
+      {
+          color: #ffffff;
+          margin: 5px 9px;
+      }
+
+      .ui-accordian-context
+      {
+          display: none;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+      }
+
+      .ui-accordian-context.ui-selected
+      {
+          display: block;
+      }
+
+	  .ui-navbar
+	  {
+          box-shadow: 0 0 3px rgba(34,34,34,.6);
+          background-color: #333;
+          color: #fff;
+          height: 60px;
+	  }
+
+      /*** ui-layout ***/
+	  .page-container
+	  {
+		  top: 60px;
+	  }
+
+      .map 
+      {
+          background-color: #0088cc;
+      }
+
+      .overview 
+      {
+          background-color: #e88a05;
+      }
+
+      .news 
+      {
+          background-color: #ce4b27;
+      }
